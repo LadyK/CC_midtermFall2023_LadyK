@@ -9,4 +9,9 @@ function draw() {
   fill(255, 0, 0);
   noStroke();
   ellipse(mouseX, mouseY, 50, 50);
+
+  fill(255);
+  stroke(0, 255, 0);
+  strokeWeight(3);
+  rect(width/2, height/2, 40, 60);
 }
